@@ -43,20 +43,28 @@ section {
   cursor: pointer;
   padding: 26px 48px;
   text-transform: uppercase;
-  
 }
 .btn-primary {
   background-color: #ef0178;
   border: transparent;
   color: #fff;
   font-weight: bold;
-  
 }
+
+.btn-primary:hover {
+  background-color: #e00171;
+}
+
 .btn-primary-outline {
   border: 1px solid #ef0178;
   color: #ef0178;
   font-weight: bold;
   background-color: transparent;
+}
+
+.btn-primary-outline:hover {
+  background-color: #e00171;
+  color:#fff;
 }
 
 .btn-secondary {
@@ -65,8 +73,12 @@ section {
   background-color: #5243c2;
 }
 
+.btn-secondary:hover {
+  background-color: #4233af;
+}
 .menu {
   list-style: none;
+  font-weight: bold;
   display: inline-flex;
   gap: 30px;
 }
@@ -85,6 +97,16 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo h3 {
+font-weight: 500;
 }
 
 .grid-col-2 {
@@ -279,9 +301,10 @@ nav {
   background-color: #5243c2;
   border-radius: 30px;
   padding: 80px;
-  background-image: url("images/drawbg.png"),url("images/circles.png");
+  background-image: url("images/drawbg.png"), url("images/circles.png"),
+    url("images/three-draw.png");
   background-repeat: no-repeat;
-  background-position: 60% 45% , 42% 90%;
+  background-position: 42% 78%, 60% 45%, 97% 24%;
   color: #fff;
 }
 
@@ -289,10 +312,8 @@ nav {
   justify-self: end;
   align-self: center;
   width: 280px;
-  
 }
 
-.hire-developers button h4{
+.hire-developers button h4 {
   letter-spacing: 2px;
-  
 }
