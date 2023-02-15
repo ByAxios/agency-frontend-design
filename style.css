@@ -28,7 +28,13 @@ section {
   border-radius: 5px;
   cursor: pointer;
 }
-
+.btn-xs {
+  font-family: "Montserrat", sans-serif;
+  outline: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 18px;
+}
 .btn-sm {
   font-family: "Montserrat", sans-serif;
   outline: transparent;
@@ -64,7 +70,7 @@ section {
 
 .btn-primary-outline:hover {
   background-color: #e00171;
-  color:#fff;
+  color: #fff;
 }
 
 .btn-secondary {
@@ -99,20 +105,26 @@ nav {
   padding-top: 40px;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
 .logo h3 {
-font-weight: 500;
+  font-weight: 500;
 }
 
 .grid-col-2 {
   display: grid;
   column-gap: 100px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-col-4 {
@@ -153,6 +165,13 @@ font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
   margin-top: 25px;
+}
+
+.heading-paragraph-muted {
+  font-size: 18px;
+
+  margin-top: 25px;
+  color: #888787;
 }
 
 .info-paragraph {
@@ -312,8 +331,77 @@ font-weight: 500;
   justify-self: end;
   align-self: center;
   width: 280px;
+  display: block;
 }
 
 .hire-developers button h4 {
   letter-spacing: 2px;
+}
+.pricing-box {
+  margin-top: 50px;
+  width: 75%;
+}
+.pricing-box button {
+  border-radius: 100px;
+  width: 100%;
+}
+.pricing-box button,
+.properties {
+  margin-top: 25px;
+  display: block;
+}
+.properties li {
+  list-style: none;
+  color: #888787;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.properties li::before {
+  content: "✔️";
+  margin-right: 5px;
+}
+
+.featured-price li::before {
+  content: "✔️";
+  margin-right: 5px;
+  filter: brightness(100);
+}
+
+.featured-price .btn-xs {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: #4031b3 !important;
+  color: #f496d1 !important;
+  border-radius: 100px;
+}
+
+.featured-price .price {
+  margin-top: 40px;
+}
+.featured-price {
+  width: 100%;
+  position: relative;
+  display: block;
+  background-color: #5243c2;
+  padding: 30px;
+  color: #fff !important;
+  border-radius: 30px;
+  box-shadow: 0px 34px 42px 0px rgba(82, 67, 194, 0.7);
+}
+
+.featured-price * {
+  color: #fff !important;
+}
+
+.pricing-boxes {
+  align-items: end;
+}
+
+.pricing-boxes :first-child{
+ 
+  justify-self: flex-end;
+}
+.pricing-boxes :last-child{
+  justify-self: flex-start;
 }
