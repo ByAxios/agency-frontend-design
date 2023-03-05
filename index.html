@@ -1,196 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Design Agency</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Design Agency</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./images/logo.png" alt="" srcset="" />
+          <h3>Eset Up</h3>
+        </div>
+        <ul class="menu">
+          <li><a class="current-page" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Testimonial</a></li>
+        </ul>
+        <button class="btn-sm btn-primary-outline">Contact</button>
+      </nav>
+      <section>
+        <div class="top">
+          <div class="text-box">
+            <h1 class="heading-primary">
+              Great software is built with
+              <span class="color-primary">amazing developers</span>
+            </h1>
+            <p class="heading-paragraph">
+              We help build and manage a team of world-class developers to
+              bring your vision to life
+            </p>
+            <a class="btn btn-secondary" href="#">Get Started</a>
+          </div>
+          <img src="images/header-img.png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <section class="meet-our-clients">
+      <div class="section-title-box">
+        <h2 class="sub-header">Meet our Clients</h2>
+        <h1 class="heading-secondary">
+          This guys are using our service and they're more than happier ever.
+        </h1>
+      </div>
+      <div class="companies">
+        <img src="images/uber.png" alt="" srcset="" />
+        <img src="images/google.png" alt="" srcset="" />
+        <img src="images/paypal.png" alt="" srcset="" />
+        <img src="images/microsoft.png" alt="" srcset="" />
+        <img src="images/dribble.png" alt="" srcset="" />
+      </div>
+    </section>
+
+    <section class="grid-col-2">
+      <img src="images/about-img.png" alt="img" />
+      <div class="about-text-box">
+        <h1 class="heading-thirdiary">
+          Boost your agencies by choosing
+          <span class="color-secondary">Ninja Developers</span>
+        </h1>
+        <p class="info-paragraph">
+          Create custom landing pages with Shades that convert more visitors
+          than any website, no coding required.
+        </p>
+        <ul class="feature-list">
+          <li>Unlimited design possibility</li>
+          <li>Completely responsive features</li>
+          <li>Easy to customize plugins</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="our-services">
+      <div class="section-title-box">
+        <h2 class="sub-header">Our Service</h2>
+        <h1 class="heading-secondary">Determine The Service You Need</h1>
+      </div>
+      <div class="service-boxes grid-col-4">
+        <div class="service-boxes-box">
+          <div class="serevice-boxes-box-icon serevice-boxes-box-icon--1">
+            <img src="images/pentoll.png" alt="" />
+          </div>
+          <div class="service-boxes-title">Development</div>
+          <div class="service-box-text">
+            Create a platform with the best and coolest quality from us.
+          </div>
+        </div>
+        <div class="service-boxes-box">
+          <div class="serevice-boxes-box-icon serevice-boxes-box-icon--2">
+            <img src="images/pentool-sides.png" alt="" />
+          </div>
+          <div class="service-boxes-title">UI/UX Designer</div>
+          <div class="service-box-text">
+            Create a platform with the best and coolest quality from us.
+          </div>
+        </div>
+        <div class="service-boxes-box">
+          <div class="serevice-boxes-box-icon serevice-boxes-box-icon--3">
+            <img src="images/pen-area.png" alt="" />
+          </div>
+          <div class="service-boxes-title">Motion Grapich</div>
+          <div class="service-box-text">
+            Create a platform with the best and coolest quality from us.
+          </div>
+        </div>
+        <div class="service-boxes-box">
+          <div class="serevice-boxes-box-icon serevice-boxes-box-icon--4">
+            <img src="images/cup.png" alt="" />
+          </div>
+          <div class="service-boxes-title">Best Award History</div>
+          <div class="service-box-text">
+            Create a platform with the best and coolest quality from us.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hire-developers">
+      <div class="grid-col-2">
+        <h3 class="heading-secondary">
+          Hire the world’s best developers and designers around!
+        </h3>
+        <button class="btn-lg btn-primary">
+          <h4>Hire Developers</h4>
+        </button>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <div class="section-title-box">
+        <h1 class="heading-primary">Our Price</h1>
+        <h3 class="heading-paragraph-muted">
+          choose the price that suits your needs, we will always give the best
+          for you
+        </h3>
+      </div>
+      <div class="grid-col-3 pricing-boxes">
+        <div class="pricing-box first">
+          <h2>$50 <span>/month</span></h2>
+          <h1>Base</h1>
+          <p class="heading-paragraph-muted">For most businesses that want to otpimize web queries</p>
+          <ul class="properties">
+            <li>All limited links</li>
+            <li>Own analytics</li>
+            <li>Chat support</li>
+            <li>optiized hastags</li>
+            <li>Unlimited users</li>
+          </ul>
+          <button class="btn-sm btn btn-primary-outline">Choose Plan</button>
+        </div>
+
+        <div class="pricing-box featured-price">
+          <a href="" class="btn-xs btn-secondary">Most Popular!</a>
+          <h2 class="price">$100 <span>/month</span></h2>
+          <h1>Pro</h1>
+          <p class="heading-paragraph-muted">For most businesses that want to otpimize web queries</p>
+          <ul class="properties">
+            <li>All limited links</li>
+            <li>Own analytics</li>
+            <li>Chat support</li>
+            <li>optiized hastags</li>
+            <li>Unlimited users</li>
+          </ul>
+          <button class="btn-sm btn btn-primary">Choose Plan</button>
+        </div>
+
+        <div class="pricing-box">
+          <h2>$150 <span>/month</span></h2>
+          <h1>Base</h1>
+          <p class="heading-paragraph-muted">For most businesses that want to otpimize web queries</p>
+          <ul class="properties">
+            <li>All limited links</li>
+            <li>Own analytics</li>
+            <li>Chat support</li>
+            <li>optiized hastags</li>
+            <li>Unlimited users</li>
+          </ul>
+          <button class="btn-sm btn btn-primary-outline">Choose Plan</button>
+        </div>
+      </div>
+
+
+    </section>
+
+
+
+    <section class="testimonials">
+      <div class="grid-col-2">
+        <div class="reviews">
+          <p class="arrow">&#8595;</p>
+          <div class="reviews-box">
+            <div class="avatar">
+              <img src="images/avatar.jpg" alt="" srcset="">
+            </div>
+            <h3 class="heading-secondary">
+              Jhone Lown
+            </h3>
+            <p class="info-paragraph">“after 1 month I consistently do sports in sprints, finally you lose about 20 kg in weight”</p>
+          </div>
+        </div>
+        <div class="text-box">
+          <h1 class="heading-thirdiary">Testimonials
+            Eset Up Customers</h1>
+          <p class="info-paragraph">What our customers have to say about our service, check below!</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
     <div class="container">
-      <header>
-        <nav>
-          <div class="logo">
-            <img src="./images/logo.png" alt="" srcset="" />
-            <h3>Eset Up</h3>
-          </div>
-          <ul class="menu">
-            <li><a class="current-page" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Price</a></li>
-            <li><a href="#">Testimonial</a></li>
-          </ul>
-          <button class="btn-sm btn-primary-outline">Contact</button>
-        </nav>
-        <section>
-          <div class="top">
-            <div class="text-box">
-              <h1 class="heading-primary">
-                Great software is built with
-                <span class="color-primary">amazing developers</span>
-              </h1>
-              <p class="heading-paragraph">
-                We help build and manage a team of world-class developers to
-                bring your vision to life
-              </p>
-              <a class="btn btn-secondary" href="#">Get Started</a>
-            </div>
-            <img src="images/header-img.png" alt="" />
-          </div>
-        </section>
-      </header>
+      <h1 class="heading-thirdiary">Subscribe to get notified about update</h1>
+      <p class="heading-paragraph">By subscribing with your mail, you will accept our privacy policy</p>
+      <div class="mail-form">
+        <input class="mail-form-email" placeholder="Enter your email" type="text">
+        <button class="btn  btn-secondary">Subscribe Us</button>
+      </div>
 
-      <section class="meet-our-clients">
-        <div class="section-title-box">
-          <h2 class="sub-header">Meet our Clients</h2>
-          <h1 class="heading-secondary">
-            This guys are using our service and they're more than happier ever.
-          </h1>
-        </div>
-        <div class="companies">
-          <img src="images/uber.png" alt="" srcset="" />
-          <img src="images/google.png" alt="" srcset="" />
-          <img src="images/paypal.png" alt="" srcset="" />
-          <img src="images/microsoft.png" alt="" srcset="" />
-          <img src="images/dribble.png" alt="" srcset="" />
-        </div>
-      </section>
-
-      <section class="grid-col-2">
-        <img src="images/about-img.png" alt="img" />
-        <div class="about-text-box">
-          <h1 class="heading-thirdiary">
-            Boost your agencies by choosing
-            <span class="color-secondary">Ninja Developers</span>
-          </h1>
-          <p class="info-paragraph">
-            Create custom landing pages with Shades that convert more visitors
-            than any website, no coding required.
-          </p>
-          <ul class="feature-list">
-            <li>Unlimited design possibility</li>
-            <li>Completely responsive features</li>
-            <li>Easy to customize plugins</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="our-services">
-        <div class="section-title-box">
-          <h2 class="sub-header">Our Service</h2>
-          <h1 class="heading-secondary">Determine The Service You Need</h1>
-        </div>
-        <div class="service-boxes grid-col-4">
-          <div class="service-boxes-box">
-            <div class="serevice-boxes-box-icon serevice-boxes-box-icon--1">
-              <img src="images/pentoll.png" alt="" />
-            </div>
-            <div class="service-boxes-title">Development</div>
-            <div class="service-box-text">
-              Create a platform with the best and coolest quality from us.
-            </div>
-          </div>
-          <div class="service-boxes-box">
-            <div class="serevice-boxes-box-icon serevice-boxes-box-icon--2">
-              <img src="images/pentool-sides.png" alt="" />
-            </div>
-            <div class="service-boxes-title">UI/UX Designer</div>
-            <div class="service-box-text">
-              Create a platform with the best and coolest quality from us.
-            </div>
-          </div>
-          <div class="service-boxes-box">
-            <div class="serevice-boxes-box-icon serevice-boxes-box-icon--3">
-              <img src="images/pen-area.png" alt="" />
-            </div>
-            <div class="service-boxes-title">Motion Grapich</div>
-            <div class="service-box-text">
-              Create a platform with the best and coolest quality from us.
-            </div>
-          </div>
-          <div class="service-boxes-box">
-            <div class="serevice-boxes-box-icon serevice-boxes-box-icon--4">
-              <img src="images/cup.png" alt="" />
-            </div>
-            <div class="service-boxes-title">Best Award History</div>
-            <div class="service-box-text">
-              Create a platform with the best and coolest quality from us.
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="hire-developers">
-        <div class="grid-col-2">
-          <h3 class="heading-secondary">
-            Hire the world’s best developers and designers around!
-          </h3>
-          <button class="btn-lg btn-primary"><h4>Hire Developers</h4></button>
-        </div>
-      </section>
-
-      <section class="pricing">
-        <div class="section-title-box">
-          <h1 class="heading-primary">Our Price</h1>
-          <h3 class="heading-paragraph-muted">
-            choose the price that suits your needs, we will always give the best
-            for you
-          </h3>
-        </div>
-        <div class="grid-col-3 pricing-boxes">
-          <div class="pricing-box first">
-            <h2>$50 <span>/month</span></h2>
-            <h1>Base</h1>
-            <p class="heading-paragraph-muted">For most businesses that want to otpimize web queries</p>
-            <ul class="properties">
-              <li>All limited links</li>
-              <li>Own analytics</li>
-              <li>Chat support</li>
-              <li>optiized hastags</li>
-              <li>Unlimited users</li>
-            </ul>
-            <button class="btn-sm btn btn-primary-outline">Choose Plan</button>
-          </div>
-
-          <div class="pricing-box featured-price">
-            <a href="" class="btn-xs btn-secondary">Most Popular!</a>
-            <h2 class="price">$100 <span>/month</span></h2>
-            <h1>Pro</h1>
-            <p class="heading-paragraph-muted">For most businesses that want to otpimize web queries</p>
-            <ul class="properties">
-              <li>All limited links</li>
-              <li>Own analytics</li>
-              <li>Chat support</li>
-              <li>optiized hastags</li>
-              <li>Unlimited users</li>
-            </ul>
-            <button class="btn-sm btn btn-primary">Choose Plan</button>
-          </div>
-
-          <div class="pricing-box">
-            <h2>$150 <span>/month</span></h2>
-            <h1>Base</h1>
-            <p class="heading-paragraph-muted">For most businesses that want to otpimize web queries</p>
-            <ul class="properties">
-              <li>All limited links</li>
-              <li>Own analytics</li>
-              <li>Chat support</li>
-              <li>optiized hastags</li>
-              <li>Unlimited users</li>
-            </ul>
-            <button class="btn-sm btn btn-primary-outline">Choose Plan</button>
-          </div>
-          </div>
-        </div>
-      </section>
+    
     </div>
-  </body>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.png" alt="" srcset="" />
+        <h3>Eset Up</h3>
+      </div>
+      <ul class="menu">
+        <li><a class="current-page" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Price</a></li>
+        <li><a href="#">Testimonial</a></li>
+      </ul>
+      <button class="btn-sm btn-primary-outline">Contact</button>
+    </nav>
+  </footer>
+
+
+</body>
+
 </html>

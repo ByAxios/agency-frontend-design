@@ -27,10 +27,12 @@ section {
   padding: 20px 49px;
   border-radius: 5px;
   cursor: pointer;
+  border: transparent;
 }
 .btn-xs {
   font-family: "Montserrat", sans-serif;
   outline: transparent;
+  border: transparent;
   border-radius: 5px;
   cursor: pointer;
   padding: 8px 18px;
@@ -38,6 +40,7 @@ section {
 .btn-sm {
   font-family: "Montserrat", sans-serif;
   outline: transparent;
+  border: transparent;
   border-radius: 5px;
   cursor: pointer;
   padding: 13px 42px;
@@ -45,6 +48,7 @@ section {
 .btn-lg {
   font-family: "Montserrat", sans-serif;
   outline: transparent;
+  border: transparent;
   border-radius: 5px;
   cursor: pointer;
   padding: 26px 48px;
@@ -56,6 +60,9 @@ section {
   color: #fff;
   font-weight: bold;
 }
+
+
+
 
 .btn-primary:hover {
   background-color: #e00171;
@@ -398,10 +405,99 @@ nav {
   align-items: end;
 }
 
-.pricing-boxes :first-child{
- 
+.pricing-boxes :first-child {
   justify-self: flex-end;
 }
-.pricing-boxes :last-child{
+.pricing-boxes :last-child {
   justify-self: flex-start;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  height: 64px;
+  width: 64px;
+  border-radius: 300px;
+  background-color: #5243c2;
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+
+.testimonials {
+  margin-top: 200px;
+  position: relative;
+  justify-content: center;
+}
+
+.reviews-box {
+  padding: 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.avatar {
+  border-radius: 100px;
+  position: absolute;
+  top: -80px;
+  left: 177px;
+}
+
+.avatar img {
+  width: 96px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+footer{
+  height: 560px;
+  padding-top: 150px;
+  background-color: #0c111f;
+  color: #fff;
+  background-image: url("images/drawbg.png"), url("images/circles.png");
+  background-repeat: no-repeat;
+  background-position:20% 65%, 81% 48%;
+  text-align: center;
+}
+
+
+.mail-form-email{
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  width: 20%;
+  height: 59px;
+  background-color: #1f2431;
+}
+
+.mail-form-email:focus{
+  outline: 3px solid #6151db;
+}
+
+.mail-form-email::placeholder{
+ color: #fff;
+ font-weight: 700;
+ letter-spacing: 1px;
+ font-size: 16px;
+}
+
+.mail-form button{
+  font-size: 16px;
+  font-weight: 700;
+}
+footer nav {
+  margin-top: 100px;
+  padding: 0px 50px;
+}
+footer nav *{
+  color: #fff !important;
 }
